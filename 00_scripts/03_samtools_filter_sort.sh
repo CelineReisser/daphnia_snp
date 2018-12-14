@@ -1,6 +1,6 @@
-WORKING_DIRECTORY=/home1/datawork/creisser/PERSIST/
+WORKDIR="/home1/datawork/creisser/daphnia_snp"
 SAMTOOLSENV=". /appli/bioinfo/samtools/1.4.1/env.sh"
-INDIR=/home1/scratch/creisser/PERSIST/04_mapped
+INDIR=05_mapped
 OUTDIR=/home1/datawork/creisser/PERSIST/04_mapped
 LOG_FOLDER=/home1/datawork/creisser/PERSIST/98_log_files
 NAME='cat /home1/datawork/creisser/PERSIST/00_scripts/base.txt'
