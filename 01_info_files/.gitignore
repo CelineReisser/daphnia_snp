@@ -1,0 +1,5 @@
+*.fasta
+*.gtf
+*.gff
+*.gff3
+*daphnia*
