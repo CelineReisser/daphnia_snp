@@ -1,6 +1,4 @@
-WORKDIR="/home1/datawork/creisser/daphnia_snp"
 INDIR=05_freebayes
-VCFLIBENV=". /appli/bioinfo/vcflib/1.0.0_rc1/env.sh"
 HEADER=00_scripts/header.txt
 
 do

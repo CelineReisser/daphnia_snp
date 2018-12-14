@@ -1,13 +1,11 @@
-WORKDIR="/home1/datawork/creisser/daphnia_snp"
-SAMTOOLSENV=". /appli/bioinfo/samtools/1.4.1/env.sh"
 INDIR=04_Ncigar
 LOG_FOLDER=98_log_files
-NAME='cat /home1/datawork/creisser/daphnia_snp/00_scripts/base.txt'
+NAME='cat 00_scripts/base.txt'
 SCRIPT=00_scripts/03_samtools_filter
 HEADER=00_scripts/header.txt
 OLD=03_MD
 
-$WORDIR
+$WORKDIR
 
 mkdir -p $SCRIPT
 

@@ -1,12 +1,10 @@
-WORKDIR="/home1/datawork/creisser/daphnia_snp"
 DATADIRECTORY=04_Ncigar
 OUTDIR=05_freebayes
 HEADER=00_scripts/header-big-mem.txt
-FREEBAYESENV=". /appli/bioinfo/freebayes/latest/env.sh"
 REF=01_info_files/sspace.final.scaffolds.fasta
 INDEX=01_info_files/sspace.final.scaffolds.fasta.fai
 
-#$FREEBAYESENV
+
 cd $WORKDIR
 mkdir -p $OUTDIR
 
