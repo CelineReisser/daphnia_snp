@@ -1,6 +1,6 @@
 WORKDIR="/home1/datawork/creisser/daphnia_snp"
 SCRIPT=00_scripts/02_gatk
-HEADER=00_scripts/header-big-mem.txt
+HEADER=00_scripts/header.txt
 GATK="/home1/datahome/creisser/local-programs/GenomeAnalysisTK.jar"
 NAME='cat /home1/datawork/creisser/GAMMA/genome_based/00_scripts/base.txt'
 DATADIRECTORY=03_MD
