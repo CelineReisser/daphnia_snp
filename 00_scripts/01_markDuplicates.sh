@@ -2,7 +2,7 @@ WORKDIR="/home1/datawork/creisser/daphnia_snp"
 SCRIPT=00_scripts/01_markDuplicates
 HEADER=00_scripts/header.txt
 PICARDTOOLS="/home1/datahome/creisser/local-programs/picard-tools-1.119"
-NAME='cat 00_scripts/base.txt'
+NAME='cat /home1/datawork/creisser/daphnia_snp/00_scripts/base.txt'
 DATADIRECTORY=02_data
 DATAOUT=03_MD
 
